@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
+      integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 360px) and (max-width: 767px)"
+      href="./CSS/mobile.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 768px) and (max-width: 1100px)"
+      href="./CSS/tablet.css"
+    />
+    <title>COLLECTIONS</title>
+  </head>
+  <body>
+    <div id="navbar" class="container">
+      <div id="nav-part-1">
+        <h1>Book Reader</h1>
+        <a href="#" onclick="openNav()" id="hamburger"
+          ><i class="fas fa-bars fa-2x"></i
+        ></a>
+      </div>
+      <div id="nav-part-2">
+        <ul id="nav-collection">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./addBook.html">AddBooks</a></li>
+          <li><a href="./readBook.html">Read Book</a></li>
+          <li>
+            <a href="#"><i class="fas fa-cog fa-1x"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="sec1" class="container bookStoreSec1">
+      <div id="sec1-content">
+        <h1>
+          Choose From The Best Collections .
+        </h1>
+      </div>
+    </div>
+
+    <!-- Collections -->
+    <div id="sec2" class="container collection-container">
+      <div class="filter-btn">
+        <ul id="gallery-buttons">
+          <li class="active" data-target="all">All</li>
+          <li data-target="fiction">Fiction</li>
+          <li data-target="mystery">Mystery</li>
+          <li data-target="romance">Romance</li>
+          <li data-target="thriller">Thriller</li>
+        </ul>
+      </div>
+      <div id="img-sec1" class="mt-3 pt-3 pb-3 collection-books">
+        <a
+          data-id="fiction"
+          href="https://www.amazon.com/Died-Eyes-Alison-Press-Books/dp/0436405008/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=&sr="
+          target="_blank"
+          ><img src="./Images/cover-12.jpg" alt="" width="200px" height="300px"
+        /></a>
+        <a
+          data-id="mystery"
+          href="https://www.amazon.com/Set-Life-Dominate-Money-American-ebook/dp/B06Y15M786/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr="
+          target="_blank"
+          ><img src="./Images/cover-1.jpg" alt="" width="200px" height="300px"
+        /></a>
+        <a
+          data-id="fiction"
+          href="https://www.amazon.in/dp/B07GSZ2LZV/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1"
+          target="_blank"
+          ><img src="./Images/cover-10.jpg" alt="" width="200px" height="300px"
+        /></a>
+        <a
+          data-id="romance"
+          href="https://www.amazon.com/Tomorrow-Ill-Brave-Jessica-Hische-ebook/dp/B0796D49RJ/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1593369958&sr=1-1"
+          target="_blank"
+          ><img src="./Images/cover-8.jpeg" alt="" width="200px" height="300px"
+        /></a>
+        <a
+          data-id="romance"
+          href="https://www.amazon.com/gp/product/B07M6SH243/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i1"
+          target="_blank"
+          ><img src="./Images/cover-4.jpeg" alt="" width="200px" height="300px"
+        /></a>
+        <a
+          data-id="thriller"
+          href="https://www.amazon.com/Priory-Orange-Tree-Samantha-Shannon-ebook/dp/B07DDGX4KY/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1593369882&sr=1-1"
+          target="_blank"
+          ><img src="./Images/cover-6.jpeg" alt="" width="200px" height="300px"
+        /></a>
+      </div>
+    </div>
+
+    <footer id="footer" class="container">
+      <h1>Book Reader</h1>
+      <div class="footer-links">
+        <a href="./index.html">Home</a>
+        <a href="./addBook.html">Add Books</a>
+        <a href="#">Read Books</a>
+      </div>
+      <div class="footer-icons">
+        <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="#"><i class="fab fa-facebook-f fa-2x"></i></a>
+        <a href="#"><i class="fab fa-pinterest fa-2x"></i></a>
+        <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+      </div>
+      <p>
+        Copyright &copy; 2020 Book Reader. Site design handcrafted by Pavan
+        Soratur
+      </p>
+      <p>Terms + Conditions | legal Stuff | FAQ</p>
+    </footer>
+
+    <script src="./JS/main.js"></script>
+    <script src="./JS/collection.js"></script>
+  </body>
+</html>

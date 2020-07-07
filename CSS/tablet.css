@@ -1,0 +1,113 @@
+/* STYLING */
+/* Navbar */
+#navbar {
+  display: block;
+}
+
+#navbar #nav-part-1 {
+  display: flex;
+}
+
+#navbar #nav-part-1 a,
+#navbar #nav-part-1 h1 {
+  flex: 1;
+  display: block;
+}
+
+#navbar #nav-part-1 a {
+  text-align: end;
+}
+
+#navbar #nav-part-2 ul {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 0rem 0rem;
+}
+
+#navbar #nav-part-2 ul li {
+  padding: 1rem 0;
+  text-align: center;
+}
+
+#navbar #nav-part-2 ul {
+  display: none;
+}
+
+#navbar #nav-part-1 h1::before {
+  width: 50%;
+  top: 30px;
+  height: 1rem;
+}
+
+/* Section 1 */
+#sec1 {
+  padding: 3rem 2rem;
+  height: fit-content;
+  background: linear-gradient(to right, #e52d27, #b31217);
+}
+
+#sec1 #sec1-content h1{
+  font-size: 2.2rem;
+}
+
+/* Section 2 */
+#sec2 {
+  padding: 2rem 0;
+  height: fit-content;
+}
+
+#sec2 h1 {
+  margin-top: 0rem;
+}
+
+/* Section 2 */
+#sec2 #img-sec1,
+#sec2 #img-sec2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#sec2 #img-sec1 img,
+#sec2 #img-sec2 img {
+  margin: 0.5rem;
+}
+
+.card-item {
+  width: 100%;
+}
+
+/* footer */
+#footer {
+  height: 45vh;
+  padding: 1rem;
+}
+
+#footer h1 {
+  padding-top: 2rem;
+}
+
+#footer .footer-icons {
+  margin: 1rem 0;
+}
+#footer .footer-icons a {
+  font-size: 20px;
+}
+
+#footer .footer-links a {
+  display: block;
+  font-size: 1.4rem;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+#footer p {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+#footer p:last-child {
+  padding-bottom: 1rem;
+}
+
+/* Collection Gallery */
